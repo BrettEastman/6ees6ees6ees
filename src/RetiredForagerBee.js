@@ -3,14 +3,14 @@ class RetiredForagerBee extends ForagerBee {
     super(age, color, food, job);
     this.age = 40;
     this.color = 'grey';
-    this.food = 'jelly';
+    // this.food = 'jelly';
     this.job = 'gamble';
     this.canFly = false;
-    this.treasureChest = [];
+    // this.treasureChest = [];
   }
-  eat () {
-    return 'Mmmmmmmmm jelly';
-  }
+  // eat () {
+  //   return 'Mmmmmmmmm jelly';
+  // }
   forage () {
     return 'I am too old, let me play cards instead';
   }
